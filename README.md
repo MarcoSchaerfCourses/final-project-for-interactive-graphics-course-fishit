@@ -1,3 +1,3 @@
 # FishIt
 
-[Demo Here](https://blacksimo.github.io/IG/FishIT/)
+[Demo Here](https://sad-boyd-68f820.netlify.com/)
