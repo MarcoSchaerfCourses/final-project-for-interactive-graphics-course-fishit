@@ -1,5 +1,4 @@
-# FishIt
-<<<<<<< HEAD
+# FishIT
 ## About the game
 
 #### A fishing game, created mainly using HTML, JS, and Three.js.
@@ -19,4 +18,3 @@
 =======
 
 [Demo Here](https://sad-boyd-68f820.netlify.com/)
->>>>>>> d9d4c954efe9dad8f171f0df108b8e47b689d6b5
