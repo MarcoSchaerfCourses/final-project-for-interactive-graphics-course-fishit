@@ -971,7 +971,7 @@ function initModels() {
     var loader = new THREE.GLTFLoader();
 
     loader.load(
-        '/models/boat2/scene.gltf',
+        'models/boat2/scene.gltf',
         function (gltf) {
             gltf.scene.castShadow = true;
             gltf.scene.name = "boat";
@@ -1024,7 +1024,7 @@ function initModels() {
     );
 
     loader.load(
-        '/models/greenmountain/scene.gltf',
+        'models/greenmountain/scene.gltf',
         function (gltf) {
             greenM = THREE.Object3D.prototype.clone.call(gltf.scene);
             greenM.scale.set(110, 110, 40);
@@ -1141,7 +1141,7 @@ function initModels() {
 
 
     loader.load(
-        '/models/lighthouse/model.gltf',
+        'models/lighthouse/model.gltf',
         function (gltf) {
             gltf.scene.castShadow = true;
             gltf.scene.name = "lighthouse";
@@ -1180,7 +1180,7 @@ function initModels() {
     );
 
     loader.load(
-        '/models/rod/rod13.gltf',
+        'models/rod/rod13.gltf',
         function (gltf) {
             rod1 = THREE.Object3D.prototype.clone.call(gltf.scene);
             //rod1.position.set(t2.x, t2.y + 5, t2.z);
@@ -1201,7 +1201,7 @@ function initModels() {
 
     //Adding the rod rope (the function will be used when the new node for the rod rope is created)
     loader.load(
-        '/models/rod/rod14.gltf',
+        'models/rod/rod14.gltf',
         function (gltf) {
             rod2 = THREE.Object3D.prototype.clone.call(gltf.scene);
             //rod2.position.set(t3.x, t3.y + 5, t3.z);
@@ -1218,7 +1218,7 @@ function initModels() {
 
     //Adding the rod bait (the function will be used when the new node for the rod bait is created)
     loader.load(
-        '/models/rod/rod15.gltf',
+        'models/rod/rod15.gltf',
         function (gltf) {
             rod3 = THREE.Object3D.prototype.clone.call(gltf.scene);
             //rod3.position.set(t4.x, t4.y + 5, t4.z);
@@ -1266,7 +1266,7 @@ function initModels() {
     );
 
     loader.load(
-        '/models/fish/scene.gltf',
+        'models/fish/scene.gltf',
         function (gltf) {
             gltf.scene.scale.set(0.05, 0.05, 0.05);
             gltf.scene.castShadow = true;
